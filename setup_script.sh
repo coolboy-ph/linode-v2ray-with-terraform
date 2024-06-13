@@ -13,9 +13,9 @@ cp x-ui/x-ui.sh /usr/bin/x-ui
 cp -f x-ui/x-ui.service /etc/systemd/system/
 mv x-ui/ /usr/local/
 
-export config_account=cool
-export config_password=cool12345
-export config_port=12345
+export config_account="Web UI login username"
+export config_password="Web UI login password"
+export config_port="Port"
 
 /usr/local/x-ui/x-ui setting -username ${config_account} -password ${config_password}
 /usr/local/x-ui/x-ui setting -port ${config_port}
