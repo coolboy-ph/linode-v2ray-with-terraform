@@ -17,8 +17,8 @@ cd linode-v2ray-terraform
 
 2. Configure Terraform
 
-- Open **_terraform.tfvars_** and update the **_token_**, **_root_pass_** and **_region_** variable with your Linode API token.
-- Also need to update other configuration values **_config_account_**, **_config_password_** and **_config_port_** in the **_setup_scripts.sh_**
+- Open [terraform.tfvars](https://github.com/coolboy-ph/linode-v2ray-with-terraform/blob/main/terraform.tfvars) and update the **_token_**, **_root_pass_** and **_region_** variable with your Linode API token.
+- Also need to update other configuration values **_config_account_**, **_config_password_** and **_config_port_** in the [setup_scripts.sh](https://github.com/coolboy-ph/linode-v2ray-with-terraform/blob/main/setup_script.sh)
 
 4. Initialize Terraform
 
