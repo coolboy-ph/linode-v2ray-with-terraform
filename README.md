@@ -37,3 +37,7 @@ Confirm the prompt to create the resources.
 6. Access Your V2Ray Server
 
 Once Terraform completes, your V2Ray server will be up and running on the provided Linode instance. You can access the V2Ray web UI with the provided port in the configuration.
+
+7. Check Additional Information
+
+For more detailed information about Linode's **_images_**, **_types_** and **_regions_**, refer to [this link](https://gist.github.com/displague/3c1728fdf4ff2bacf6960a9b8c6ea73f).
