@@ -11,7 +11,7 @@ This repository provides a Terraform configuration to set up a V2Ray server on L
 1. Clone the Repository
 
 ~~~bash
-git clone https://github.com/yourusername/linode-v2ray-terraform.git
+git clone https://github.com/coolboy-ph/linode-v2ray-with-terraform.git
 cd linode-v2ray-terraform
 ~~~
 
