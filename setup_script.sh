@@ -4,7 +4,7 @@ apt-get install curl -y
 apt-get install jq -y
 
 LATEST_RELEASE_URL=$(curl -s https://api.github.com/repos/vaxilu/x-ui/releases/latest | jq -r '.tag_name')
-DOWNLOAD_URL="https://github.com/vaxilu/x-ui/releases/download/${LATEST_RELEASE_URL}/x-ui-linux-amd64.tar.gz"
+DOWNLOAD_URL="https://github.com/NidukaAkalanka/x-ui-english/releases/download/${LATEST_RELEASE_URL}/x-ui-linux-amd64.tar.gz"
 wget $DOWNLOAD_URL -O x-ui-linux-amd64.tar.gz
 
 tar zxvf x-ui-linux-amd64.tar.gz
